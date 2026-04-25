@@ -62,3 +62,60 @@ Context: Batch insert from 601-950 list with auto-generated codes (200 requested
 Context: Batch insert from 303-306 add-on list (4 requested, 3 inserted, 1 skipped)
 
 26) A/23/065-303 | already_exact | ticket 303 already assigned to student A/23/065
+---
+Context: Re-check for 307-350 list (verify mismatch skip)
+
+27) A/23/367-309 | verify_code_mismatch | existing verify for pair is 6137, requested normalized verify is 2302
+---
+Context: Re-import attempt from 351-400 list with 4-digit codes (50 requested, 0 inserted, 50 skipped)
+
+28) A/20/GIS/053-351 | already_exact | ticket 351 already assigned to student A/20/GIS/053
+29) A/20/GIS/075-352 | already_exact | ticket 352 already assigned to student A/20/GIS/075
+30) A/20/GIS/063-353 | already_exact | ticket 353 already assigned to student A/20/GIS/063
+31) A/23/LLB/015-354 | already_exact | ticket 354 already assigned to student A/23/LLB/015
+32) A/23/791-355 | already_exact | ticket 355 already assigned to student A/23/791
+33) A/23/LLB/039-356 | already_exact | ticket 356 already assigned to student A/23/LLB/039
+34) A/23/831-357 | already_exact | ticket 357 already assigned to student A/23/831
+35) A/23/179-358 | already_exact | ticket 358 already assigned to student A/23/179
+36) A/23/637-359 | already_exact | ticket 359 already assigned to student A/23/637
+37) A/23/99-360 | already_exact | ticket 360 already assigned to student A/23/99
+38) A/22/605-361 | already_exact | ticket 361 already assigned to student A/22/605
+39) A/23/161-362 | already_exact | ticket 362 already assigned to student A/23/161
+40) A/23/136-363 | already_exact | ticket 363 already assigned to student A/23/136
+41) A/23/407-364 | already_exact | ticket 364 already assigned to student A/23/407
+42) A/23/264-365 | already_exact | ticket 365 already assigned to student A/23/264
+43) A/23/352-366 | already_exact | ticket 366 already assigned to student A/23/352
+44) A/22/790-367 | already_exact | ticket 367 already assigned to student A/22/790
+45) A/22/397-368 | already_exact | ticket 368 already assigned to student A/22/397
+46) A/22/005-369 | already_exact | ticket 369 already assigned to student A/22/005
+47) A/23/559-370 | already_exact | ticket 370 already assigned to student A/23/559
+48) A/23/LLB/070-371 | already_exact | ticket 371 already assigned to student A/23/LLB/070
+49) A/23/LLB/043-372 | already_exact | ticket 372 already assigned to student A/23/LLB/043
+50) A/23/300-373 | already_exact | ticket 373 already assigned to student A/23/300
+51) A/23/068-374 | already_exact | ticket 374 already assigned to student A/23/068
+52) AH/20/MLS/021-375 | already_exact | ticket 375 already assigned to student AH/20/MLS/021
+53) A/22/322-376 | already_exact | ticket 376 already assigned to student A/22/322
+54) A/22/004-377 | already_exact | ticket 377 already assigned to student A/22/004
+55) A/22/001-378 | already_exact | ticket 378 already assigned to student A/22/001
+56) A/22/396-379 | already_exact | ticket 379 already assigned to student A/22/396
+57) A/22/506-380 | already_exact | ticket 380 already assigned to student A/22/506
+58) A/22/LLB/021-381 | already_exact | ticket 381 already assigned to student A/22/LLB/021
+59) A/22/LLB/044-382 | student_id_exists | existing ticket for student: 2257
+60) A/20/LLB/070-383 | already_exact | ticket 383 already assigned to student A/20/LLB/070
+61) A/20/GIS/059-384 | already_exact | ticket 384 already assigned to student A/20/GIS/059
+62) A/20/LLB/063-385 | already_exact | ticket 385 already assigned to student A/20/LLB/063
+63) A/20/LLB/030-386 | already_exact | ticket 386 already assigned to student A/20/LLB/030
+64) A/20/LLB/018-387 | already_exact | ticket 387 already assigned to student A/20/LLB/018
+65) A/20/LLB/004-388 | already_exact | ticket 388 already assigned to student A/20/LLB/004
+66) A/20/LLB/071-389 | already_exact | ticket 389 already assigned to student A/20/LLB/071
+67) A/23/081-390 | already_exact | ticket 390 already assigned to student A/23/081
+68) A/23/022-391 | already_exact | ticket 391 already assigned to student A/23/022
+69) A/21/328-392 | already_exact | ticket 392 already assigned to student A/21/328
+70) A/21/285-393 | already_exact | ticket 393 already assigned to student A/21/285
+71) A/21/106-394 | already_exact | ticket 394 already assigned to student A/21/106
+72) A/21/561-395 | already_exact | ticket 395 already assigned to student A/21/561
+73) A/21/241-396 | already_exact | ticket 396 already assigned to student A/21/241
+74) A/20/835-397 | already_exact | ticket 397 already assigned to student A/20/835
+75) A/20/833-398 | already_exact | ticket 398 already assigned to student A/20/833
+76) A/20/286-399 | already_exact | ticket 399 already assigned to student A/20/286
+77) A/20/121-400 | already_exact | ticket 400 already assigned to student A/20/121
