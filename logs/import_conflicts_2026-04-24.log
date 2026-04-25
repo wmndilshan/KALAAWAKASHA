@@ -1,0 +1,64 @@
+Import Conflict Log
+Date: 2026-04-24
+Project: KalaTarana
+Context: Batch insert (47 requested, 39 inserted, 8 skipped)
+
+Format:
+requested_reg-ticket | reason | existing_mapping
+
+1) A/22/249-2401 | student_id_exists | existing ticket for student: 2
+2) A/22/622-2426 | ticket_no_exists | ticket 2426 already used by: A/22/771
+3) MG/23/190-2430 | student_id_exists | existing ticket for student: 418
+4) S/22/037-2435 | student_id_exists | existing ticket for student: 523
+5) A/20/SW/027-2445 | student_id_exists | existing ticket for student: 2386
+6) A/23/233-2448 | student_id_exists + ticket_no_exists | existing ticket for student: 2301, ticket 2448 used by: A/23/023
+7) A/23/206-2449 | already_exact | existing ticket for student: 2449, ticket 2449 used by: A/23/206
+8) AH/23/NUR/052-2450 | already_exact | existing ticket for student: 2450, ticket 2450 used by: AH/23/NUR/052
+
+---
+Context: Precheck conflict set from 2202-2250 batch (40 requested)
+
+9) A/21/698-2225 | duplicate_ticket_no_in_request | same ticket also requested by: A/21/830-2225
+10) A/21/830-2225 | duplicate_ticket_no_in_request | same ticket also requested by: A/21/698-2225
+11) A/23/721-2233 | ticket_no_exists | ticket 2233 already exists in database
+12) A/23/454-2238 | ticket_no_exists | ticket 2238 already exists in database
+
+---
+Context: Batch insert from 2451-2485 list (35 requested, 32 inserted, 3 skipped)
+
+13) A/20/GIS/052-2483 | student_id_exists | existing ticket for student: 2365
+14) A/22/222-2461 | student_id_exists | existing ticket for student: 2279
+15) A/23/LLB/030-2459 | student_id_exists | existing ticket for student: 885
+
+---
+Context: Batch insert from 1401-1450 list (50 requested, 48 inserted, 2 skipped)
+
+16) A/20/LLB/006-1424 | student_id_exists | existing ticket for student: 2383
+17) A/23/023-1426 | student_id_exists | existing ticket for student: 2448
+
+---
+Context: Batch insert from 351-400 list with 4-digit codes (50 requested, 49 inserted, 1 skipped)
+
+18) A/22/LLB/044-382 | student_id_exists | existing ticket for student: 2257
+
+---
+Context: Batch insert from 307-350 list with 4-digit codes (44 requested, 43 inserted, 1 skipped)
+
+19) A/23/367-309 | already_exact | ticket 309 already assigned to student A/23/367
+---
+Context: Batch insert from 151-200 list with auto-generated codes (50 requested, 49 inserted, 1 skipped)
+
+20) A/21/061-152 | student_id_exists | existing ticket for student: 1525
+
+---
+Context: Batch insert from 601-950 list with auto-generated codes (200 requested, 195 inserted, 5 skipped)
+
+21) AH/22/NUR/016-700 | ticket_no_exists | ticket 700 already used by: AH/22/UNK/016
+22) M/22/189-699 | duplicate_student_id_in_request | same student also requested with ticket: 849
+23) M/22/189-849 | duplicate_student_id_in_request | same student also requested with ticket: 699
+24) S/21/419-664 | already_exact | ticket 664 already assigned to student S/21/419
+25) S/21/589-822 | already_exact | ticket 822 already assigned to student S/21/589
+---
+Context: Batch insert from 303-306 add-on list (4 requested, 3 inserted, 1 skipped)
+
+26) A/23/065-303 | already_exact | ticket 303 already assigned to student A/23/065

@@ -1,0 +1,82 @@
+# ------------------------------
+# OS / Editor
+# ------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ------------------------------
+# Logs / temp
+# ------------------------------
+*.tmp
+*.temp
+
+# ------------------------------
+# Environment / secrets
+# ------------------------------
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+!**/.env.example
+
+# ------------------------------
+# Node / package managers
+# ------------------------------
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# ------------------------------
+# TypeScript / test / coverage
+# ------------------------------
+*.tsbuildinfo
+coverage/
+.nyc_output/
+
+# ------------------------------
+# Build outputs (web/mobile)
+# ------------------------------
+dist/
+build/
+out/
+web/dist/
+mobile/dist/
+.vite/
+.parcel-cache/
+.expo/
+.expo-shared/
+
+# Expo / EAS local artifacts
+mobile/.expo/
+mobile/.expo-shared/
+mobile/.eas/
+mobile/android/
+mobile/ios/
+mobile/web-build/
+mobile/.gradle/
+mobile/*.apk
+mobile/*.aab
+
+# ------------------------------
+# Supabase local/dev artifacts
+# ------------------------------
+supabase/.temp/
+supabase/.branches/
+
+# ------------------------------
+# Misc caches
+# ------------------------------
+.cache/
+.eslintcache
