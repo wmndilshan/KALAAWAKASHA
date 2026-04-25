@@ -1,0 +1,36 @@
+{
+  "name": "kalaawakasha-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "tunnel": "ANDROID_HOME=/tmp/no-android-sdk ANDROID_SDK_ROOT=/tmp/no-android-sdk expo start --tunnel --clear --port 8082",
+    "lan": "expo start --lan --clear",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.2.0",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "@supabase/supabase-js": "^2.49.8",
+    "expo": "~54.0.0",
+    "expo-asset": "~12.0.12",
+    "expo-camera": "~17.0.10",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-qrcode-svg": "^6.3.21",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-svg": "^15.15.4",
+    "react-native-url-polyfill": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "typescript": "^5.8.3"
+  }
+}

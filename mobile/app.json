@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "KalaAwakasha Organizer",
+    "slug": "kalaawakasha-organizer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a203838c-5948-49ac-90fa-b4e94eacf256"
+      }
+    },
+    "android": {
+      "package": "com.wmndilshan.kalaawakashaorganizer"
+    }
+  }
+}
